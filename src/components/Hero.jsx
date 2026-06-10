@@ -13,9 +13,9 @@ const rise = {
 }
 
 const stats = [
-  { value: '188',   label: 'FS'  },
-  { value: '64',    label: 'Matches'     },
-  { value: '24H',   label: 'Withdrawal'  },
+  { value: '$300',  label: 'Top Up $100'  },
+  { value: '20%',   label: 'Daily · $288' },
+  { value: '$5K',   label: 'Weekly Pass'  },
 ]
 
 const ArrowRight = () => (
@@ -63,12 +63,12 @@ export default function Hero() {
           >
             <span className="text-gold-outline">WORLD CUP 2026</span>
             <br />
-            <span className="text-gold-3d">GET 188 FS</span>
+            <span className="text-gold-3d">35,306 JOINED</span>
           </motion.h1>
 
           {/* Sub */}
           <motion.p variants={rise} className="font-body text-body-premium text-sm leading-relaxed mb-4 md:max-w-md">
-            Register today and receive 188 FS — all 64 matches covered.
+            Chance to win up to SGD 100,000 — play Golden Boot Showdown.
           </motion.p>
 
           {/* CTA */}
