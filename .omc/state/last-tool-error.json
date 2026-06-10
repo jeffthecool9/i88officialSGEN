@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"New-Item -ItemType Directory -Force \\\"C:\\\\Users\\\\User\\\\Desktop\\\\omc-test\\\\i88-worldcup\\\\public\\\\events\\\" | Out-Null; Copy-Item \\\"C:\\\\Users\\\\User\\\\Downloads\\\\FB-ADS-1.png\\\" \\\"C:\\\\Users\\\\Use...",
+  "error": "Exit code 127\n/usr/bin/bash: line 1: New-Item: command not found\n/usr/bin/bash: line 1: Out-Null: command not found\n/usr/bin/bash: line 1: Copy-Item: command not found\n/usr/bin/bash: line 1: Copy-Item: command not found\n/usr/bin/bash: line 1: Copy-Item: command not found\n/usr/bin/bash: line 1: Copy-Item: command not found\n/usr/bin/bash: line 1: Write-Output: command not found",
+  "timestamp": "2026-05-26T07:20:55.848Z",
+  "retry_count": 1
+}
