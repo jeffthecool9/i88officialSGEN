@@ -52,7 +52,7 @@ export default function PremiumButton({ children, onClick, size = 'lg', classNam
         animate={{
           boxShadow: [
             '0 0 0 0px rgba(14,165,233,0)',
-            '0 0 0 7px rgba(14,165,233,0.20)',
+            '0 0 0 7px rgba(14,165,233,0.08)',
             '0 0 0 0px rgba(14,165,233,0)',
           ],
         }}
