@@ -49,8 +49,8 @@ const steps = [
   },
   {
     num: '03',
-    label: 'GET 188 FS',
-    detail: 'Credited upon qualifying deposit',
+    label: 'COLLECT YOUR REWARDS',
+    detail: 'Win up to SGD 100,000',
     bg:     'linear-gradient(150deg, #4338CA 0%, #6366F1 45%, #818CF8 100%)',
     ledge:  'rgba(67,56,202,0.85)',
     badge:  'bg-white/20 border-white/30 text-white',
