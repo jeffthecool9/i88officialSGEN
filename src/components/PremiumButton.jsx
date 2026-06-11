@@ -28,7 +28,7 @@ export default function PremiumButton({ children, onClick, size = 'lg', classNam
   }
 
   const sizeClass = size === 'lg' ? 'px-10 py-4' : 'px-7 py-3'
-  const fontSize  = size === 'lg' ? '1rem'       : '0.875rem'
+  const fontSize  = size === 'lg' ? '1.2rem'     : '1.05rem'
 
   return (
     <motion.div
@@ -79,7 +79,14 @@ export default function PremiumButton({ children, onClick, size = 'lg', classNam
 
         <span
           className="relative z-10 font-display tracking-[0.12em]"
-          style={{ fontSize, fontWeight: 900 }}
+          style={{
+            fontSize,
+            fontWeight: 900,
+            color: '#ffffff',
+            WebkitTextStroke: '2px #000',
+            paintOrder: 'stroke fill',
+            textShadow: '1px 1px 0 #1a1a1a, 2px 2px 0 #111, 3px 3px 0 #080808, 3px 4px 10px rgba(0,0,0,0.65)',
+          }}
         >
           {children}
         </span>
