@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { trackEvent } from '../utils/tracking'
+import { trackLead } from '../utils/tracking'
 import PremiumButton from './PremiumButton'
 
 const container = {
@@ -80,7 +80,7 @@ export default function Hero() {
           <motion.div variants={rise} className="flex md:justify-start justify-center mb-4">
             <PremiumButton
               size="lg"
-              onClick={() => { trackEvent('hero_cta_click', { section: 'hero' }); window.open('https://www.palacehub8.com/t2zaT9uZ', '_blank') }}
+              onClick={() => { trackLead('hero'); window.open('https://www.palacehub8.com/t2zaT9uZ', '_blank') }}
               className="w-full sm:w-auto"
             >
               Join Now
